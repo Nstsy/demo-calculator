@@ -14,8 +14,8 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        if(b==0){
-            throw new ArithmeticException("Делить на 0 нельзя")
+        if (b == 0) {
+            throw new ArithmeticException("Делить на 0 нельзя");
         }
         return a / b;
     }
