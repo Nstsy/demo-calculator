@@ -1,6 +1,7 @@
 package by.it.stolybko.calculator;
-
-public class MainCalculator extends Exception {
+// Убрала extends Exception. Почитала, что наследование
+// от Exception используется, если необходимо е создать свое собственное исключение в Java.
+public class MainCalculator {
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
